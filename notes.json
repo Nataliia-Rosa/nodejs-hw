@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Plan weekly sprint",
+    "content": "Prepare tasks for the backend module and estimate effort.",
+    "tag": "Work"
+  },
+  {
+    "title": "Buy groceries",
+    "content": "Milk, eggs, bread, tomatoes and coffee.",
+    "tag": "Shopping"
+  },
+  {
+    "title": "Doctor appointment",
+    "content": "Book a check-up for next Thursday.",
+    "tag": "Health"
+  },
+  {
+    "title": "Trip ideas",
+    "content": "Compare flights and hotels for a short vacation.",
+    "tag": "Travel"
+  },
+  {
+    "title": "Pay utility bills",
+    "content": "Electricity and internet invoices are due this week.",
+    "tag": "Finance"
+  }
+]
