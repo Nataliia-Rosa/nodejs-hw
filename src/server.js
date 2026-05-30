@@ -25,6 +25,8 @@ const bootstrap = async () => {
     });
   });
 
+  app.use(logger);
+
   app.use(
     cors({
       origin: true,
@@ -34,14 +36,13 @@ const bootstrap = async () => {
 
   app.use(express.json());
   app.use(cookieParser());
-  // app.use(logger);
 
   app.use('/auth', authRouter);
   app.use('/notes', notesRouter);
   app.use('/users', userRouter);
 
-  app.use(errors());
   app.use(notFoundHandler);
+  app.use(errors());
   app.use(errorHandler);
 
   app.listen(PORT, () => {
